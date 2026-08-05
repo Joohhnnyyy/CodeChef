@@ -7,5 +7,6 @@ A collection of CodeChef questions - Created using LeetHub v2
 |  |
 | ------- |
 | [CANDYDIST - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/CANDYDIST%20-%20CodeChef) |
+| [CHEFBOTTLE - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/CHEFBOTTLE%20-%20CodeChef) |
 | [FSQRT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/FSQRT%20-%20CodeChef) |
 <!---CodeChef Topics End-->
