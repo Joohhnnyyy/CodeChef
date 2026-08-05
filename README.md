@@ -6,6 +6,7 @@ A collection of CodeChef questions - Created using LeetHub v2
 ## Misc
 |  |
 | ------- |
+| [BULLET - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/BULLET%20-%20CodeChef) |
 | [C_RATING - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/C_RATING%20-%20CodeChef) |
 | [CANDYDIST - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/CANDYDIST%20-%20CodeChef) |
 | [CHEFBOTTLE - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/CHEFBOTTLE%20-%20CodeChef) |
