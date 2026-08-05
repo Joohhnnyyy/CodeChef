@@ -1,25 +1,201 @@
-Valentine is Coming
+Chessboard Distance
 
-Valentine's Day is approaching and thus Chef wants to buy some chocolates for someone special.
-
-Chef has a total of 
+The Chessboard Distance for any two points 
+(
 𝑋
-X rupees and one chocolate costs 
+1
+,
 𝑌
-Y rupees. What is the maximum number of chocolates Chef can buy?
+1
+)
+(X
+1
+	​
+
+,Y
+1
+	​
+
+) and 
+(
+𝑋
+2
+,
+𝑌
+2
+)
+(X
+2
+	​
+
+,Y
+2
+	​
+
+) on a Cartesian plane is defined as 
+𝑚
+𝑎
+𝑥
+(
+∣
+𝑋
+1
+−
+𝑋
+2
+∣
+,
+∣
+𝑌
+1
+−
+𝑌
+2
+∣
+)
+max(∣X
+1
+	​
+
+−X
+2
+	​
+
+∣,∣Y
+1
+	​
+
+−Y
+2
+	​
+
+∣).
+
+You are given two points 
+(
+𝑋
+1
+,
+𝑌
+1
+)
+(X
+1
+	​
+
+,Y
+1
+	​
+
+) and 
+(
+𝑋
+2
+,
+𝑌
+2
+)
+(X
+2
+	​
+
+,Y
+2
+	​
+
+). Output their Chessboard Distance.
+
+Note that, 
+∣
+𝑃
+∣
+∣P∣ denotes the absolute value of integer 
+𝑃
+P. For example, 
+∣
+−
+4
+∣
+=
+4
+∣−4∣=4 and 
+∣
+7
+∣
+=
+7
+∣7∣=7.
 
 Input Format
 First line will contain 
 𝑇
 T, the number of test cases. Then the test cases follow.
-Each test case contains a single line of input, two integers 
+Each test case consists of a single line of input containing 
+4
+4 space separated integers - 
 𝑋
+1
 ,
 𝑌
-X,Y - the amount Chef has and the cost of one chocolate respectively.
+1
+,
+𝑋
+2
+,
+𝑌
+2
+X
+1
+	​
+
+,Y
+1
+	​
+
+,X
+2
+	​
+
+,Y
+2
+	​
+
+ - as defined in the problem statement.
 Output Format
 
-For each test case, output the maximum number of chocolates Chef can buy.
+For each test case, output in a single line the chessboard distance between 
+(
+𝑋
+1
+,
+𝑌
+1
+)
+(X
+1
+	​
+
+,Y
+1
+	​
+
+) and 
+(
+𝑋
+2
+,
+𝑌
+2
+)
+(X
+2
+	​
+
+,Y
+2
+	​
+
+)
 
 Constraints
 1
@@ -31,61 +207,191 @@ Constraints
 1
 ≤
 𝑋
+1
 ,
 𝑌
+1
+,
+𝑋
+2
+,
+𝑌
+2
 ≤
-100
-1≤X,Y≤100
+10
+5
+1≤X
+1
+	​
+
+,Y
+1
+	​
+
+,X
+2
+	​
+
+,Y
+2
+	​
+
+≤10
+5
+Subtasks
+
+Subtask #1 (100 points): original constraints
+
 Sample 1:
 Input
 Output
-4
-5 10
-16 5
-35 7
-100 1
-
-0
 3
-5
-100
+2 4 5 1
+5 5 5 3
+1 4 3 3
+
+3
+2
+2
 
 Explanation:
 
-Test case-1: Chef has 
-5
-5 rupees but the cost of one chocolate is 
-10
-10 rupees. Therefore Chef can not buy any chocolates.
-
-Test case-2: Chef has 
-16
-16 rupees and the cost of one chocolate is 
-5
-5 rupees. Therefore Chef can buy at max 
-3
-3 chocolates since buying 
+In the first case, the distance between 
+(
+2
+,
 4
-4 chocolates would cost 
-20
-20 rupees.
-
-Test case-3: Chef has 
-35
-35 rupees and the cost of one chocolate is 
-7
-7 rupees. Therefore Chef can buy at max 
+)
+(2,4) and 
+(
 5
-5 chocolates for 
-35
-35 rupees.
-
-Test case-4: Chef has 
-100
-100 rupees and the cost of one chocolate is 
+,
 1
-1 rupee. Therefore Chef can buy at max 
-100
-100 chocolates for 
-100
-100 rupees.
+)
+(5,1) is 
+𝑚
+𝑎
+𝑥
+(
+∣
+2
+−
+5
+∣
+,
+∣
+4
+−
+1
+∣
+)
+=
+𝑚
+𝑎
+𝑥
+(
+∣
+−
+3
+∣
+,
+∣
+3
+∣
+)
+=
+3
+max(∣2−5∣,∣4−1∣)=max(∣−3∣,∣3∣)=3.
+
+In the second case, the distance between 
+(
+5
+,
+5
+)
+(5,5) and 
+(
+5
+,
+3
+)
+(5,3) is 
+𝑚
+𝑎
+𝑥
+(
+∣
+5
+−
+5
+∣
+,
+∣
+5
+−
+3
+∣
+)
+=
+𝑚
+𝑎
+𝑥
+(
+∣
+0
+∣
+,
+∣
+2
+∣
+)
+=
+2
+max(∣5−5∣,∣5−3∣)=max(∣0∣,∣2∣)=2.
+
+In the third case, the distance between 
+(
+1
+,
+4
+)
+(1,4) and 
+(
+3
+,
+3
+)
+(3,3) is 
+𝑚
+𝑎
+𝑥
+(
+∣
+1
+−
+3
+∣
+,
+∣
+4
+−
+3
+∣
+)
+=
+𝑚
+𝑎
+𝑥
+(
+∣
+−
+2
+∣
+,
+∣
+1
+∣
+)
+=
+2
+max(∣1−3∣,∣4−3∣)=max(∣−2∣,∣1∣)=2.
