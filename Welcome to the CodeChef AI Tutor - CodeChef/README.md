@@ -1,114 +1,124 @@
-Blackjack
+Chess Ratings
 
-Chef is playing a variant of Blackjack, where 
-3
-3 numbers are drawn and each number lies between 
-1
-1 and 
-10
-10 (with both 
-1
-1 and 
-10
-10 inclusive). Chef wins the game when the sum of these 
-3
-3 numbers is exactly 
-21
-21.
+Alice has recently started playing Chess. Her current rating is 
+𝑋
+X. She noticed that when she wins a game, her rating increases by 
+8
+8 points.
 
-Given the first two numbers 
-𝐴
-A and 
-𝐵
-B, that have been drawn by Chef, what should be 
-3
-3-rd number that should be drawn by the Chef in order to win the game?
-
-Note that it is possible that Chef cannot win the game, no matter what is the 
-3
-3-rd number. In such cases, report 
-−
-1
-−1 as the answer.
+Can you help Alice in finding out the minimum number of games she needs to win in order to make her rating greater than or equal to 
+𝑌
+Y?
 
 Input Format
-The first line will contain an integer 
+The first line of input will contain an integer 
 𝑇
-T - number of test cases. Then the test cases follow.
-The first and only line of each test case contains two integers 
-𝐴
-A and 
-𝐵
-B - the first and second number drawn by the Chef.
+T — the number of test cases. The description of 
+𝑇
+T test cases follows.
+The first line of each test case contains two integers 
+𝑋
+X and 
+𝑌
+Y, as described in the problem statement.
 Output Format
 
-For each testcase, output the 
-3
-3-rd number that should be drawn by the Chef in order to win the game. Output 
-−
-1
-−1 if it is not possible for the Chef to win the game.
+For each test case, output the minimum number of games that Alice needs to win in order to make her rating greater than or equal to 
+𝑌
+Y.
 
 Constraints
 1
 ≤
 𝑇
 ≤
-100
-1≤T≤100
+10
+4
+1≤T≤10
+4
 1
 ≤
-𝐴
-,
-𝐵
+𝑋
+≤
+𝑌
 ≤
 10
-1≤A,B≤10
+4
+1≤X≤Y≤10
+4
 Sample 1:
 Input
 Output
-3
-1 10
-1 5
-4 9
-10
--1
-8
+4
+10 10
+10 17
+10 18
+10 19
+
+0
+1
+1
+2
 Explanation:
 
 Test case 
 1
-1: The first two numbers are 
-1
-1 and 
-10
-10. If the third number will be 
-10
-10, the resulting sum will be 
-1
-+
-10
-+
-10
-=
-21
-1+10+10=21. So Chef will win the game if the third number is 
-10
-10.
+1: Since Alice's current rating 
+𝑋
+X is already equal to her desired rating 
+𝑌
+Y, she doesn't need to win any game.
 
 Test case 
 2
-2: The first two numbers are 
-1
-1 and 
-5
-5. There is no number between 
-1
-1 and 
+2: Alice's current rating is 
 10
-10, that can make the resulting sum 
-21
-21. Hence, the answer will be 
-−
+10. After winning 
 1
-−1 in this test case.
+1 game, her rating will become 
+10
++
+8
+=
+18
+10+8=18, which is greater than her desired rating of 
+17
+17. Thus, she has to win at least 
+1
+1 game.
+
+Test case 
+3
+3: Alice's current rating is 
+10
+10. After winning 
+1
+1 game, her rating will become 
+10
++
+8
+=
+18
+10+8=18, which is equal to her desired rating of 
+18
+18. Thus, she has to win at least 
+1
+1 game.
+
+Test case 
+4
+4: Alice's current rating is 
+10
+10. After winning 
+1
+1 game, her rating will become 
+18
+18, which is less than her desired rating of 
+19
+19. She will need to win one more game in order to make her rating 
+26
+26, which is greater than 
+19
+19. Thus, she has to win at least 
+2
+2 games.
