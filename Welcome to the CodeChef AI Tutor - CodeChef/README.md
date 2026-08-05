@@ -1,124 +1,91 @@
-Chess Ratings
+Fill Candies
 
-Alice has recently started playing Chess. Her current rating is 
-𝑋
-X. She noticed that when she wins a game, her rating increases by 
-8
-8 points.
-
-Can you help Alice in finding out the minimum number of games she needs to win in order to make her rating greater than or equal to 
-𝑌
-Y?
+Chef received 
+𝑁
+N candies on his birthday. He wants to put these candies in some bags. A bag has 
+𝐾
+K pockets and each pocket can hold at most 
+𝑀
+M candies. Find the minimum number of bags Chef needs so that he can put every candy into a bag.
 
 Input Format
-The first line of input will contain an integer 
+The first line of input will contain a single integer 
 𝑇
-T — the number of test cases. The description of 
-𝑇
-T test cases follows.
-The first line of each test case contains two integers 
-𝑋
-X and 
-𝑌
-Y, as described in the problem statement.
+T, denoting the number of test cases.
+Each test case consists of a single line containing three space-separated integers 
+𝑁
+,
+𝐾
+,
+𝑀
+N,K,M.
 Output Format
 
-For each test case, output the minimum number of games that Alice needs to win in order to make her rating greater than or equal to 
-𝑌
-Y.
+For each test case, print the minimum number of bags Chef needs so that he can put all the candies in one of the bags.
 
 Constraints
 1
 ≤
 𝑇
 ≤
-10
-4
-1≤T≤10
-4
+1000
+1≤T≤1000
 1
 ≤
-𝑋
+𝑁
+,
+𝐾
+,
+𝑀
 ≤
-𝑌
-≤
-10
-4
-1≤X≤Y≤10
-4
+100
+1≤N,K,M≤100
 Sample 1:
 Input
 Output
 4
-10 10
-10 17
-10 18
-10 19
+6 2 3
+3 1 2
+8 4 1
+25 4 2
 
-0
-1
+
 1
 2
+2
+4
+
+
 Explanation:
 
 Test case 
 1
-1: Since Alice's current rating 
-𝑋
-X is already equal to her desired rating 
-𝑌
-Y, she doesn't need to win any game.
+1: Chef puts 
+3
+3 candies in the first pocket of a bag and the remaining 
+3
+3 candies in the second pocket. Thus Chef will need only one bag.
 
 Test case 
 2
-2: Alice's current rating is 
-10
-10. After winning 
+2: Chef puts 
+2
+2 candies in the only pocket of the first bag and the remaining 
 1
-1 game, her rating will become 
-10
-+
-8
-=
-18
-10+8=18, which is greater than her desired rating of 
-17
-17. Thus, she has to win at least 
-1
-1 game.
+1 candy in the only pocket of the second bag. Thus Chef will need two bags.
 
 Test case 
 3
-3: Alice's current rating is 
-10
-10. After winning 
-1
-1 game, her rating will become 
-10
-+
-8
-=
-18
-10+8=18, which is equal to her desired rating of 
-18
-18. Thus, she has to win at least 
-1
-1 game.
+3: Chef puts 
+4
+4 candies in the first bag, one candy in each of the 
+4
+4 pockets and the same for the second bag. Thus Chef will need two bags.
 
 Test case 
 4
-4: Alice's current rating is 
-10
-10. After winning 
-1
-1 game, her rating will become 
-18
-18, which is less than her desired rating of 
-19
-19. She will need to win one more game in order to make her rating 
-26
-26, which is greater than 
-19
-19. Thus, she has to win at least 
+4: Chef puts 
 2
-2 games.
+2 candies in each of the 
+4
+4 pockets of three bags, one candy in a pocket of the fourth bag.
