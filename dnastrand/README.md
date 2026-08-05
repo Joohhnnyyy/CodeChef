@@ -1,0 +1,115 @@
+# DNASTRAND
+## Difficulty: Easy
+
+Complementary Strand in a DNA
+
+You are given the sequence of Nucleotides of one strand of DNA through a string 
+𝑆
+S of length 
+𝑁
+N. 
+𝑆
+S contains the character 
+𝐴
+,
+𝑇
+,
+𝐶
+,
+A,T,C, and 
+𝐺
+G only.
+
+Chef knows that:
+
+𝐴
+A is complementary to 
+𝑇
+T.
+𝑇
+T is complementary to 
+𝐴
+A.
+𝐶
+C is complementary to 
+𝐺
+G.
+𝐺
+G is complementary to 
+𝐶
+C.
+
+Using the string 
+𝑆
+S, determine the sequence of the complementary strand of the DNA.
+
+Input Format
+First line will contain 
+𝑇
+T, number of test cases. Then the test cases follow.
+First line of each test case contains an integer 
+𝑁
+N - denoting the length of string 
+𝑆
+S.
+Second line contains 
+𝑁
+N characters denoting the string 
+𝑆
+S.
+Output Format
+
+For each test case, output the string containing 
+𝑁
+N characters - sequence of nucleotides of the complementary strand.
+
+Constraints
+1
+≤
+𝑇
+≤
+100
+1≤T≤100
+1
+≤
+𝑁
+≤
+100
+1≤N≤100
+𝑆
+S contains A, T, C, and G only
+Sample 1:
+Input
+Output
+4
+4
+ATCG
+4
+GTCC
+5
+AAAAA
+3
+TAC
+
+TAGC
+CAGG
+TTTTT
+ATG
+
+Explanation:
+
+Test case 
+1
+1: Based on the rules, the complements of A, T, C, and G are T, A, G, and C respectively. Thus, the complementary string of the given string ATCG is TAGC.
+
+Test case 
+2
+2: Based on the rules, the complements of G, T, and C are C, A, and G respectively. Thus, the complementary string of the given string GTCC is CAGG.
+
+Test case 
+3
+3: Based on the rules, the complement of A is T. Thus, the complementary string of the given string AAAAA is TTTTT.
+
+Test case 
+4
+4: Based on the rules, the complements of T, A, and C are A, T, and G respectively. Thus, the complementary string of the given string TAC is ATG.
