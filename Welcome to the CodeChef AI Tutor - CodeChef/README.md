@@ -1,397 +1,108 @@
-Chessboard Distance
+X Jumps
 
-The Chessboard Distance for any two points 
-(
+Chef is currently standing at stair 
+0
+0 and he wants to reach stair numbered 
 𝑋
-1
-,
+X.
+
+Chef can climb either 
 𝑌
+Y steps or 
 1
-)
-(X
-1
-	​
-
-,Y
-1
-	​
-
-) and 
-(
+1 step in one move.
+Find the minimum number of moves required by him to reach exactly the stair numbered 
 𝑋
-2
-,
-𝑌
-2
-)
-(X
-2
-	​
-
-,Y
-2
-	​
-
-) on a Cartesian plane is defined as 
-𝑚
-𝑎
-𝑥
-(
-∣
-𝑋
-1
-−
-𝑋
-2
-∣
-,
-∣
-𝑌
-1
-−
-𝑌
-2
-∣
-)
-max(∣X
-1
-	​
-
-−X
-2
-	​
-
-∣,∣Y
-1
-	​
-
-−Y
-2
-	​
-
-∣).
-
-You are given two points 
-(
-𝑋
-1
-,
-𝑌
-1
-)
-(X
-1
-	​
-
-,Y
-1
-	​
-
-) and 
-(
-𝑋
-2
-,
-𝑌
-2
-)
-(X
-2
-	​
-
-,Y
-2
-	​
-
-). Output their Chessboard Distance.
-
-Note that, 
-∣
-𝑃
-∣
-∣P∣ denotes the absolute value of integer 
-𝑃
-P. For example, 
-∣
-−
-4
-∣
-=
-4
-∣−4∣=4 and 
-∣
-7
-∣
-=
-7
-∣7∣=7.
+X.
 
 Input Format
-First line will contain 
+The first line of input will contain a single integer 
 𝑇
-T, the number of test cases. Then the test cases follow.
-Each test case consists of a single line of input containing 
-4
-4 space separated integers - 
+T, denoting the number of test cases.
+Each test case consists of a single line of input containing two space separated integers 
 𝑋
-1
-,
+X and 
 𝑌
-1
-,
-𝑋
-2
-,
-𝑌
-2
-X
-1
-	​
-
-,Y
-1
-	​
-
-,X
-2
-	​
-
-,Y
-2
-	​
-
- - as defined in the problem statement.
+Y denoting the number of stair Chef wants to reach and the number of stairs he can climb in one move.
 Output Format
 
-For each test case, output in a single line the chessboard distance between 
-(
+For each test case, output the minimum number of moves required by him to reach exactly the stair numbered 
 𝑋
-1
-,
-𝑌
-1
-)
-(X
-1
-	​
-
-,Y
-1
-	​
-
-) and 
-(
-𝑋
-2
-,
-𝑌
-2
-)
-(X
-2
-	​
-
-,Y
-2
-	​
-
-)
+X.
 
 Constraints
 1
 ≤
 𝑇
 ≤
-1000
-1≤T≤1000
+500
+1≤T≤500
 1
 ≤
 𝑋
-1
 ,
 𝑌
-1
-,
-𝑋
-2
-,
-𝑌
-2
 ≤
-10
-5
-1≤X
-1
-	​
-
-,Y
-1
-	​
-
-,X
-2
-	​
-
-,Y
-2
-	​
-
-≤10
-5
-Subtasks
-
-Subtask #1 (100 points): original constraints
-
+100
+1≤X,Y≤100
 Sample 1:
 Input
 Output
-3
-2 4 5 1
-5 5 5 3
-1 4 3 3
+4
+4 2
+8 3
+3 4
+2 1
 
-3
 2
+4
+3
 2
 
 Explanation:
 
-In the first case, the distance between 
-(
-2
-,
-4
-)
-(2,4) and 
-(
-5
-,
+Test case 
 1
-)
-(5,1) is 
-𝑚
-𝑎
-𝑥
-(
-∣
+1: Chef can make 
 2
-−
-5
-∣
-,
-∣
+2 moves and climb 
+2
+2 steps in each move to reach stair numbered 
 4
-−
-1
-∣
-)
-=
-𝑚
-𝑎
-𝑥
-(
-∣
-−
-3
-∣
-,
-∣
-3
-∣
-)
-=
-3
-max(∣2−5∣,∣4−1∣)=max(∣−3∣,∣3∣)=3.
+4.
 
-In the second case, the distance between 
-(
-5
-,
-5
-)
-(5,5) and 
-(
-5
-,
-3
-)
-(5,3) is 
-𝑚
-𝑎
-𝑥
-(
-∣
-5
-−
-5
-∣
-,
-∣
-5
-−
-3
-∣
-)
-=
-𝑚
-𝑎
-𝑥
-(
-∣
-0
-∣
-,
-∣
+Test case 
 2
-∣
-)
-=
+2: Chef can make a minimum of 
+4
+4 moves. He can climb 
+3
+3 steps in 
 2
-max(∣5−5∣,∣5−3∣)=max(∣0∣,∣2∣)=2.
+2 of those moves and 
+1
+1 step each in remaining 
+2
+2 moves to reach stair numbered 
+8
+8.
 
-In the third case, the distance between 
-(
+Test case 
+3
+3: Chef can make 
+3
+3 moves and climb 
 1
-,
+1 step in each move to reach stair numbered 
+3
+3.
+
+Test case 
 4
-)
-(1,4) and 
-(
-3
-,
-3
-)
-(3,3) is 
-𝑚
-𝑎
-𝑥
-(
-∣
-1
-−
-3
-∣
-,
-∣
-4
-−
-3
-∣
-)
-=
-𝑚
-𝑎
-𝑥
-(
-∣
-−
+4: Chef can make 
 2
-∣
-,
-∣
+2 moves and climb 
 1
-∣
-)
-=
+1 step in each move to reach stair numbered 
 2
-max(∣1−3∣,∣4−3∣)=max(∣−2∣,∣1∣)=2.
+2.
