@@ -1,108 +1,124 @@
-X Jumps
+Chess Ratings
 
-Chef is currently standing at stair 
-0
-0 and he wants to reach stair numbered 
+Alice has recently started playing Chess. Her current rating is 
 𝑋
-X.
+X. She noticed that when she wins a game, her rating increases by 
+8
+8 points.
 
-Chef can climb either 
+Can you help Alice in finding out the minimum number of games she needs to win in order to make her rating greater than or equal to 
 𝑌
-Y steps or 
-1
-1 step in one move.
-Find the minimum number of moves required by him to reach exactly the stair numbered 
-𝑋
-X.
+Y?
 
 Input Format
-The first line of input will contain a single integer 
+The first line of input will contain an integer 
 𝑇
-T, denoting the number of test cases.
-Each test case consists of a single line of input containing two space separated integers 
+T — the number of test cases. The description of 
+𝑇
+T test cases follows.
+The first line of each test case contains two integers 
 𝑋
 X and 
 𝑌
-Y denoting the number of stair Chef wants to reach and the number of stairs he can climb in one move.
+Y, as described in the problem statement.
 Output Format
 
-For each test case, output the minimum number of moves required by him to reach exactly the stair numbered 
-𝑋
-X.
+For each test case, output the minimum number of games that Alice needs to win in order to make her rating greater than or equal to 
+𝑌
+Y.
 
 Constraints
 1
 ≤
 𝑇
 ≤
-500
-1≤T≤500
+10
+4
+1≤T≤10
+4
 1
 ≤
 𝑋
-,
+≤
 𝑌
 ≤
-100
-1≤X,Y≤100
+10
+4
+1≤X≤Y≤10
+4
 Sample 1:
 Input
 Output
 4
-4 2
-8 3
-3 4
-2 1
+10 10
+10 17
+10 18
+10 19
 
+0
+1
+1
 2
-4
-3
-2
-
 Explanation:
 
 Test case 
 1
-1: Chef can make 
-2
-2 moves and climb 
-2
-2 steps in each move to reach stair numbered 
-4
-4.
+1: Since Alice's current rating 
+𝑋
+X is already equal to her desired rating 
+𝑌
+Y, she doesn't need to win any game.
 
 Test case 
 2
-2: Chef can make a minimum of 
-4
-4 moves. He can climb 
-3
-3 steps in 
-2
-2 of those moves and 
+2: Alice's current rating is 
+10
+10. After winning 
 1
-1 step each in remaining 
-2
-2 moves to reach stair numbered 
+1 game, her rating will become 
+10
++
 8
-8.
+=
+18
+10+8=18, which is greater than her desired rating of 
+17
+17. Thus, she has to win at least 
+1
+1 game.
 
 Test case 
 3
-3: Chef can make 
-3
-3 moves and climb 
+3: Alice's current rating is 
+10
+10. After winning 
 1
-1 step in each move to reach stair numbered 
-3
-3.
+1 game, her rating will become 
+10
++
+8
+=
+18
+10+8=18, which is equal to her desired rating of 
+18
+18. Thus, she has to win at least 
+1
+1 game.
 
 Test case 
 4
-4: Chef can make 
-2
-2 moves and climb 
+4: Alice's current rating is 
+10
+10. After winning 
 1
-1 step in each move to reach stair numbered 
+1 game, her rating will become 
+18
+18, which is less than her desired rating of 
+19
+19. She will need to win one more game in order to make her rating 
+26
+26, which is greater than 
+19
+19. Thus, she has to win at least 
 2
-2.
+2 games.
