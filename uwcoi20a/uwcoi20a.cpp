@@ -8,18 +8,9 @@ int main() {
     while( times-- ){
         int n ;
         cin >> n;
-        vector<int>arr
+        vector<int>arr()
     }
 }
 
-arr
-ay
- 
-snippet
-bin
-ar
-y_sea
-r
-ch
- 
-snippet
+array snippet
+binary_search snippet
