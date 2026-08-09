@@ -9,7 +9,7 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(int j = 0 ; j < n ; j++)cin>> arr[j];
+        for(+)cin>> arr[j];
         int maximun = arr[0];
         for(auto i : arr){
             if(maximum < arr[i])maximum = arr[i];
