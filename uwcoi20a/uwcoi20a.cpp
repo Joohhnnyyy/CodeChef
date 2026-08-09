@@ -12,35 +12,4 @@ int main() {
     }
 }
 
-ve
-ctor
- 
-snippet
-re
-ve
-rse
- 
-snippet
-remo
-ve
-_if
- 
-snippet
-v
-olatil
-e
- 
-keyword
-pre
-v
-_p
-e
-rmutation
- 
-snippet
-pri
-v
-at
-e
- 
-keyword
+vector snippet
