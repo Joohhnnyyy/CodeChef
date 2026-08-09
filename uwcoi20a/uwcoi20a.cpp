@@ -9,16 +9,16 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(int i = 0 ; i <)
+        for(int i = 0 ; i < n ;)
     }
 }
 
-main local
-make_heap snippet
-map snippet
-max snippet
-max_element snippet
-merge snippet
-mfun snippet
-min snippet
-min_element snippet
+namespace local
+new keyword
+next_permutation snippet
+noexcept keyword
+none_of snippet
+not keyword
+not_eq keyword
+ns snippet
+nth_element snippet
