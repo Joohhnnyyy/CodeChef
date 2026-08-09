@@ -9,7 +9,7 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(+)cin>> arr[j];
+        for(auto)cin>> arr[j];
         int maximun = arr[0];
         for(auto i : arr){
             if(maximum < arr[i])maximum = arr[i];
@@ -17,6 +17,6 @@ int main() {
     }
 }
 
-arr local
-array snippet
-binary_search snippet
+auto local
+accumulate snippet
+default keyword
