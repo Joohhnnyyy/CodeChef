@@ -4,9 +4,7 @@ using namespace std;
 int main() {
     // your code goes here
     int times;
-    cin >> 
+    cin >> times;
 }
 
-cin snippet
-continue keyword
-set_intersection snippet
+times local
