@@ -11,21 +11,9 @@ int main() {
         vector<int>arr(n);
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
-        for(int i = 0 ; i < arr)
+        for(int i = 0 ; i < arr.size() )
     }
 }
 
-arr
- 
-local
-arr
-ay
- 
-snippet
-bin
-ar
-y_sea
-r
-ch
- 
-snippet
+size_t keyword
+sizeof keyword
