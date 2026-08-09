@@ -8,16 +8,39 @@ int main() {
     while( times-- ){
         int n ;
         cin >> n;
-        
+        ve
     }
 }
 
-namespace local
-new keyword
-next_permutation snippet
-noexcept keyword
-none_of snippet
-not keyword
-not_eq keyword
-ns snippet
-nth_element snippet
+ve
+ctor
+ 
+snippet
+re
+ve
+rse
+ 
+snippet
+remo
+ve
+_if
+ 
+snippet
+v
+olatil
+e
+ 
+keyword
+pre
+v
+_p
+e
+rmutation
+ 
+snippet
+pri
+v
+at
+e
+ 
+keyword
