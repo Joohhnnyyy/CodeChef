@@ -8,11 +8,46 @@ int main() {
     while( times-- ){
         int n ;
         cin >> n;
-        vec
+        vector<int
     }
 }
 
-vec
-tor
+int
  
-snippet
+local
+int
+16_t
+ 
+keyword
+int
+32_t
+ 
+keyword
+int
+64_t
+ 
+keyword
+int
+8_t
+ 
+keyword
+u
+int
+16_t
+ 
+keyword
+u
+int
+32_t
+ 
+keyword
+u
+int
+64_t
+ 
+keyword
+u
+int
+8_t
+ 
+keyword
