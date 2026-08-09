@@ -9,7 +9,7 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(auto)cin>> arr[j];
+        for(auto i :)cin>> arr[j];
         int maximun = arr[0];
         for(auto i : arr){
             if(maximum < arr[i])maximum = arr[i];
@@ -17,6 +17,12 @@ int main() {
     }
 }
 
-auto local
-accumulate snippet
-default keyword
+int local
+if local
+include local
+if keyword
+inline keyword
+int keyword
+int16_t keyword
+int32_t keyword
+int64_t keyword
