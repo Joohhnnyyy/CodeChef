@@ -9,16 +9,16 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(int i = 0 ;)
+        for(int i = 0 ; i <)
     }
 }
 
-int local
-include local
-if keyword
-inline keyword
-int keyword
-int16_t keyword
-int32_t keyword
-int64_t keyword
-int8_t keyword
+main local
+make_heap snippet
+map snippet
+max snippet
+max_element snippet
+merge snippet
+mfun snippet
+min snippet
+min_element snippet
