@@ -9,16 +9,16 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(int i = 0 ; i < n ;)
+        for(int i = 0 ; i < n ; i++)
     }
 }
 
-namespace local
-new keyword
-next_permutation snippet
-noexcept keyword
-none_of snippet
-not keyword
-not_eq keyword
-ns snippet
-nth_element snippet
+int local
+include local
+if keyword
+inline keyword
+int keyword
+int16_t keyword
+int32_t keyword
+int64_t keyword
+int8_t keyword
