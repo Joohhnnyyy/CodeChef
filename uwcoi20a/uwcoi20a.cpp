@@ -7,7 +7,7 @@ int main() {
     cin >> times;
     while( times-- ){
         int n ;
-         cin >> namespace
+         cin >> n
     }
 }
 
