@@ -3,15 +3,10 @@ using namespace std;
 
 int main() {
     // your code goes here
-    int tim,
+    int times;
+    cin >> 
 }
 
-else keyword
-enum keyword
-explicit keyword
-export keyword
-extern keyword
-here local
-goes local
-code local
-namespace local
+cin snippet
+continue keyword
+set_intersection snippet
