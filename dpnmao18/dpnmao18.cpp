@@ -1,26 +1,26 @@
+};
+
+Node* rotation(Node* head , int k){
+    if(!head || !head -> next || k == 0)return head;
+    Node* curr = head;
+    Node* lastNode = nullptr;
+    int len = 1;
+    while(curr -> next){
+        curr = curr -> next;
+        len++;
+    }lastNode = curr;
+    lastNode -> next = head;
+    curr = head;
+    k %= len;
+    if(!k)return head;
+    int remNode = len -k - 1;
+    while(remNode--){
+        curr = curr -> next;
+    }head = curr -> next;
+    curr -> next = nullptr;
+    return head;
 }
 void print(Node* head){
     while(head){
         cout << head -> data << " " ;
-        head = head -> next;
-    }
-    cout<< "\n";
-}
-
-Node* takeInput(int n){
-    if( n <= 0)return nullptr;
-    int data;
-    cin >> data;
-    Node* head = new Node(data);
-    Node* tail = head;
-    for(int i = 1 ; i < n ; i++){
-        cin >> data;
-        Node* newNode = new Node(data);
-        tail -> next = newNode;
-        tail = newNode;
-    }return head;
-}
-int main() {
-    // your code goes here
-    ios_base::sync_with_stdio(false);
 curr local
