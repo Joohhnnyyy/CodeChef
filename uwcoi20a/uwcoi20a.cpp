@@ -8,9 +8,16 @@ int main() {
     while( times-- ){
         int n ;
         cin >> n;
-        vector<int>arr()
+        vector<int>arr(n);
     }
 }
 
-array snippet
-binary_search snippet
+namespace local
+new keyword
+next_permutation snippet
+noexcept keyword
+none_of snippet
+not keyword
+not_eq keyword
+ns snippet
+nth_element snippet
