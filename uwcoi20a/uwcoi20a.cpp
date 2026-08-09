@@ -17,17 +17,6 @@ int main() {
     }
 }
 
-arr
- 
-local
-arr
-ay
- 
-snippet
-bin
-ar
-y_sea
-r
-ch
- 
-snippet
+arr local
+array snippet
+binary_search snippet
