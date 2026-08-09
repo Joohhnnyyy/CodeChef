@@ -12,47 +12,17 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            if ma
+            if
         }
     }
 }
 
-ma
-ximun
- 
-local
-ma
-in
- 
-local
-ma
-ke_heap
- 
-snippet
-ma
-p
- 
-snippet
-ma
-x
- 
-snippet
-ma
-x_element
- 
-snippet
-m
-ma
-p
- 
-snippet
-u
-ma
-p
- 
-snippet
-_I
-ma
-ginary
- 
-keyword
+maximun local
+main local
+make_heap snippet
+map snippet
+max snippet
+max_element snippet
+merge snippet
+mfun snippet
+min snippet
