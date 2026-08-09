@@ -12,17 +12,44 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            
+            if
         }
     }
 }
 
-int local
-include local
-if keyword
-inline keyword
-int keyword
-int16_t keyword
-int32_t keyword
-int64_t keyword
-int8_t keyword
+if
+ 
+keyword
+copy_
+if
+ 
+snippet
+find_
+if
+ 
+snippet
+set_d
+if
+ference
+ 
+snippet
+count_
+if
+ 
+snippet
+remove_
+if
+ 
+snippet
+s
+i
+zeo
+f
+ 
+keyword
+al
+i
+gno
+f
+ 
+keyword
