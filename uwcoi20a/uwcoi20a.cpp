@@ -7,11 +7,16 @@ int main() {
     cin >> times;
     while( times-- ){
         int n ;
-         cinn
+         cin >> namespace
     }
 }
 
-cin local
-cin snippet
-continue keyword
-set_intersection snippet
+namespace local
+new keyword
+next_permutation snippet
+noexcept keyword
+none_of snippet
+not keyword
+not_eq keyword
+ns snippet
+nth_element snippet
