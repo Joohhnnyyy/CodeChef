@@ -13,7 +13,7 @@ int main() {
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
             if(maximum < arr[i])maximum = arr[i];
-        }cout << 
+        }cout << maximum 
     }
 }
 
@@ -24,5 +24,5 @@ make_heap snippet
 map snippet
 max snippet
 max_element snippet
-merge snippet
-mfun snippet
+mmap snippet
+umap snippet
