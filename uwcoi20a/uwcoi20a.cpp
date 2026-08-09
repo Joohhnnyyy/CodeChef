@@ -10,16 +10,16 @@ int main() {
         cin >> n;
         vector<int>arr(n);
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
-        
+        int 
     }
 }
 
 int local
-include local
-if keyword
-inline keyword
-int keyword
 int16_t keyword
 int32_t keyword
 int64_t keyword
 int8_t keyword
+uint16_t keyword
+uint32_t keyword
+uint64_t keyword
+uint8_t keyword
