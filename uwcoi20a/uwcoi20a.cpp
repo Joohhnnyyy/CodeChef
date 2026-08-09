@@ -11,9 +11,16 @@ int main() {
         vector<int>arr(n);
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
-        for(int i = 0 ; i < arr.size() )
+        for(int i = 0 ; i < arr.size() ; i++)
     }
 }
 
-size_t keyword
-sizeof keyword
+int local
+include local
+if keyword
+inline keyword
+int keyword
+int16_t keyword
+int32_t keyword
+int64_t keyword
+int8_t keyword
