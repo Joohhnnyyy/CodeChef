@@ -11,43 +11,21 @@ int main() {
         vector<int>arr(n);
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
-        for(int i = 0 ; i)
+        for(int i = 0 ; i < arr)
     }
 }
 
-i
-nt
+arr
  
 local
-i
-nclude
+arr
+ay
  
-local
-i
-f
+snippet
+bin
+ar
+y_sea
+r
+ch
  
-keyword
-i
-nline
- 
-keyword
-i
-nt
- 
-keyword
-i
-nt16_t
- 
-keyword
-i
-nt32_t
- 
-keyword
-i
-nt64_t
- 
-keyword
-i
-nt8_t
- 
-keyword
+snippet
