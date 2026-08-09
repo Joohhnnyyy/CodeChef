@@ -9,12 +9,43 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for()
+        for(int i)
     }
 }
 
-for keyword
-for_each snippet
-fore snippet
-fori snippet
-transform snippet
+i
+nt
+ 
+local
+i
+nclude
+ 
+local
+i
+f
+ 
+keyword
+i
+nline
+ 
+keyword
+i
+nt
+ 
+keyword
+i
+nt16_t
+ 
+keyword
+i
+nt32_t
+ 
+keyword
+i
+nt64_t
+ 
+keyword
+i
+nt8_t
+ 
+keyword
