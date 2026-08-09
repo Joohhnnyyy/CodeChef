@@ -7,27 +7,11 @@ int main() {
     cin >> times;
     while( times-- ){
         int n ;
-         cin
+         cinn
     }
 }
 
-cin
- 
-local
-cin
- 
-snippet
-c
-ont
-in
-ue
- 
-keyword
-set_interse
-c
-t
-i
-o
-n
- 
-snippet
+cin local
+cin snippet
+continue keyword
+set_intersection snippet
