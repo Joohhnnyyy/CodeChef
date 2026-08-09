@@ -13,16 +13,10 @@ int main() {
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
             if(maximum < arr[i])maximum = arr[i];
-        }cout << maximum 
+        }cout << maximum << endl;
     }
 }
 
-maximum local
-maximun local
-main local
-make_heap snippet
-map snippet
-max snippet
-max_element snippet
-mmap snippet
-umap snippet
+friend keyword
+lower_bound snippet
+upper_bound snippet
