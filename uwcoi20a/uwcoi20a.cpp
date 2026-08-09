@@ -7,7 +7,8 @@ int main() {
     cin >> times;
     while( times-- ){
         int n ;
-         cin >> n
+         cin >> n;
+         
     }
 }
 
