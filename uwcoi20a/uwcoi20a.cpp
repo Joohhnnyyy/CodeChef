@@ -13,43 +13,16 @@ int main() {
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
             if(maximum < arr[i])maximum = arr[i];
-        }c
+        }cout M
     }
 }
 
-c
-in
- 
-local
-c
-ode
- 
-local
-c
-ase
- 
-keyword
-c
-atch
- 
-keyword
-c
-har
- 
-keyword
-c
-har16_t
- 
-keyword
-c
-har32_t
- 
-keyword
-c
-in
- 
-snippet
-c
-l
- 
-snippet
+maximum local
+maximun local
+main local
+make_heap snippet
+map snippet
+max snippet
+max_element snippet
+merge snippet
+mfun snippet
