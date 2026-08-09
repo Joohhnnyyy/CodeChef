@@ -12,50 +12,17 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            if(maximum < arr[i])maximum = ar
+            if(maximum < arr[i])maximum = arr[i]
         }
     }
 }
 
-ar
-r
- 
-local
-ar
-ray
- 
-snippet
-p
-ar
-tition
- 
-snippet
-ch
-ar
- 
-keyword
-ch
-ar
-16_t
- 
-keyword
-ch
-ar
-32_t
- 
-keyword
-bin
-ar
-y_search
- 
-snippet
-wch
-ar
-_t
- 
-keyword
-_Imagin
-ar
-y
- 
-keyword
+if local
+int local
+include local
+if keyword
+inline keyword
+int keyword
+int16_t keyword
+int32_t keyword
+int64_t keyword
