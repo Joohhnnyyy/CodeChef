@@ -8,8 +8,11 @@ int main() {
     while( times-- ){
         int n ;
         cin >> n;
-        ve
+        vec
     }
 }
 
-vector snippet
+vec
+tor
+ 
+snippet
