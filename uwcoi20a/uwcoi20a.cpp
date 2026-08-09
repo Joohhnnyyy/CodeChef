@@ -9,27 +9,49 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(int i = 0 ; i < n ; i++)cin
+        for(int i = 0 ; i < n ; i++)cin>> ar
     }
 }
 
-cin
+ar
+r
  
 local
-cin
+ar
+ray
  
 snippet
-c
-ont
-in
-ue
+p
+ar
+tition
+ 
+snippet
+ch
+ar
  
 keyword
-set_interse
-c
-t
-i
-o
-n
+ch
+ar
+16_t
+ 
+keyword
+ch
+ar
+32_t
+ 
+keyword
+bin
+ar
+y_search
  
 snippet
+wch
+ar
+_t
+ 
+keyword
+_Imagin
+ar
+y
+ 
+keyword
