@@ -8,46 +8,18 @@ int main() {
     while( times-- ){
         int n ;
         cin >> n;
-        vector<int
+        vector<int>arr
     }
 }
 
-int
+arr
+ay
  
-local
-int
-16_t
+snippet
+bin
+ar
+y_sea
+r
+ch
  
-keyword
-int
-32_t
- 
-keyword
-int
-64_t
- 
-keyword
-int
-8_t
- 
-keyword
-u
-int
-16_t
- 
-keyword
-u
-int
-32_t
- 
-keyword
-u
-int
-64_t
- 
-keyword
-u
-int
-8_t
- 
-keyword
+snippet
