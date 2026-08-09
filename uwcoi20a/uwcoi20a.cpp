@@ -12,7 +12,7 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            if(maximum < )
+            if(maximum <)
         }
     }
 }
