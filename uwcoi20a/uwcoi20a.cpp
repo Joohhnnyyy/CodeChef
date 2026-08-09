@@ -9,43 +9,16 @@ int main() {
         int n ;
         cin >> n;
         vector<int>arr(n);
-        for(int i)
+        for(int i = 0 ;)
     }
 }
 
-i
-nt
- 
-local
-i
-nclude
- 
-local
-i
-f
- 
-keyword
-i
-nline
- 
-keyword
-i
-nt
- 
-keyword
-i
-nt16_t
- 
-keyword
-i
-nt32_t
- 
-keyword
-i
-nt64_t
- 
-keyword
-i
-nt8_t
- 
-keyword
+int local
+include local
+if keyword
+inline keyword
+int keyword
+int16_t keyword
+int32_t keyword
+int64_t keyword
+int8_t keyword
