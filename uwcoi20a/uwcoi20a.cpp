@@ -11,10 +11,12 @@ int main() {
         vector<int>arr(n);
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
-        
+        for()
     }
 }
 
-arr local
-array snippet
-binary_search snippet
+for local
+for_each snippet
+fore snippet
+fori snippet
+transform snippet
