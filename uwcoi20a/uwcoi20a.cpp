@@ -12,12 +12,10 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            if(maximum < arr[i])max 
+            if(maximum < arr[i])maximun
         }
     }
 }
 
 maximum local
 maximun local
-max snippet
-max_element snippet
