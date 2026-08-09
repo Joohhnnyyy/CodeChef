@@ -12,44 +12,47 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            if
+            if ma
         }
     }
 }
 
-if
+ma
+ximun
  
-keyword
-copy_
-if
+local
+ma
+in
  
-snippet
-find_
-if
- 
-snippet
-set_d
-if
-ference
+local
+ma
+ke_heap
  
 snippet
-count_
-if
+ma
+p
  
 snippet
-remove_
-if
+ma
+x
  
 snippet
-s
-i
-zeo
-f
+ma
+x_element
  
-keyword
-al
-i
-gno
-f
+snippet
+m
+ma
+p
+ 
+snippet
+u
+ma
+p
+ 
+snippet
+_I
+ma
+ginary
  
 keyword
