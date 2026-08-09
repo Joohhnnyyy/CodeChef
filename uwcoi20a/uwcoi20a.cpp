@@ -12,9 +12,44 @@ int main() {
         for(int i = 0 ; i < n ; i++)cin>> arr[i];
         int maximun = arr[0];
         for(int i = 0 ; i < arr.size() ; i++){
-            if(maximum < )
+            if(maximum < arr[i])
         }
     }
 }
 
-maximun local
+i
+f
+ 
+local
+i
+nt
+ 
+local
+i
+nclude
+ 
+local
+i
+f
+ 
+keyword
+i
+nline
+ 
+keyword
+i
+nt
+ 
+keyword
+i
+nt16_t
+ 
+keyword
+i
+nt32_t
+ 
+keyword
+i
+nt64_t
+ 
+keyword
