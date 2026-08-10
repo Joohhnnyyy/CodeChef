@@ -8,7 +8,7 @@
 };*/
 
 int getMiddleElement(Node* head){
-    if(!)
+    if(!head)
     Node* slow = head;
     Node* fast = head;
     while( fast -> next ){
@@ -17,11 +17,13 @@ int getMiddleElement(Node* head){
     }return slow -> val;
 }
 
-if keyword
-copy_if snippet
-find_if snippet
-set_difference snippet
-count_if snippet
-remove_if snippet
-sizeof keyword
-alignof keyword
+head
+ 
+local
+t
+h
+r
+ead
+_local
+ 
+keyword
