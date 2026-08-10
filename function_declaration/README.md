@@ -1,173 +1,138 @@
 # Function Declaration
 ## Difficulty: Easy
 
-Find minimum in a rotated sorted array
+Find the Length of the Linked List
 
-Imagine you have an array of length 
-𝑛
-n that was initially sorted in increasing order, but then it was rotated some number of times between 
-1
-1 and 
-𝑛
-n. A rotation consists of moving the last element of the array to the first position.
+You are given a singly linked list.
+Your task is to find the number of nodes present in the linked list.
 
-For example, if the sorted array is 
-𝑛
-𝑢
-𝑚
-𝑏
-𝑒
-𝑟
-𝑠
-=
-[
-1
-,
-2
-,
-3
-,
-4
-,
-5
-,
-6
-,
-7
-]
-numbers=[1,2,3,4,5,6,7], after rotating it 3 times, it becomes: 
-[
-5
-,
-6
-,
-7
-,
-1
-,
-2
-,
-3
-,
-4
-]
-[5,6,7,1,2,3,4]
-
-Or after rotating 7 times, the array stays the same: 
-[
-1
-,
-2
-,
-3
-,
-4
-,
-5
-,
-6
-,
-7
-]
-[1,2,3,4,5,6,7]
-
-Your task is: Given a rotated sorted array of distinct integers, write an efficient algorithm to find and return the smallest element in the array.
-
-Your solution must run in O(log n) time complexity.
+The linked list nodes are provided in the form of integer values.
 
 Function Declaration
 Function Name
 
-𝑓
-𝑖
-𝑛
-𝑑
-𝑀
-𝑖
-𝑛
-findMin – This function returns the minimum element in a rotated sorted array of distinct integers.
-
-Parameters
-𝑛
-𝑢
-𝑚
-𝑠
-nums : A reference to a rotated sorted array of distinct integers.
-Return Value
-Returns the smallest integer present in the array.
-Input Format
-The first line contains an integer 
-𝑇
-T — number of test cases.
-For each test case:
-One line containing an integer 
-𝑛
-n — size of the array
-One line containing 
-𝑛
-n space-separated integers — the rotated sorted array
-Output Format
-For each test case, print a single integer — the minimum element in the array
-Constraints
-1 <= T <= 100
-1
-≤
-𝑛
-𝑢
-𝑚
-𝑠
-.
-𝑙
+𝑔
+𝑒
+𝑡
+𝐿
 𝑒
 𝑛
 𝑔
 𝑡
 ℎ
+getLength — This function calculates and returns the total number of nodes in a given singly linked list.
+
+Parameters
+
+ℎ
+𝑒
+𝑎
+𝑑
+head: A pointer to the first node of the singly linked list.
+
+If 
+ℎ
+𝑒
+𝑎
+𝑑
+head is 
+𝑁
+𝑈
+𝐿
+𝐿
+NULL, the list is empty.
+Each node contains an integer value and a pointer to the next node.
+Return Value
+
+Returns an integer representing the number of nodes present in the linked list starting from 
+ℎ
+𝑒
+𝑎
+𝑑
+head.
+
+Returns 
+0
+0 if the list is empty.
+
+The input and output formats provided below are only for testing with custom inputs.
+
+Constraints:
+1
+≤
+𝑇
+≤
+100
+1≤T≤100
+0
+≤
+𝑁
 ≤
 10
 5
-1≤nums.length≤10
+0≤N≤10
 5
+Sum of all 
+𝑁
+ across test cases
+≤
+10
+6
+Sum of all N across test cases≤10
+6
+Linked list element constraints:
+Linked list element constraints:
+Each element is an integer
+Each element is an integer
 −
 10
-4
+9
 ≤
-𝑛
-𝑢
-𝑚
-𝑠
-[
-𝑖
-]
+value
 ≤
 10
-4
+9
 −10
-4
-≤nums[i]≤10
-4
-All elements in 
-𝑛
-𝑢
-𝑚
-𝑠
-nums are unique
-𝑛
-𝑢
-𝑚
-𝑠
-nums is guaranteed to be a rotated version of a sorted array
+9
+≤value≤10
+9
+Input Format
+
+The first line contains an integer 
+𝑇
+T, the number of test cases.
+
+For each test case:
+
+The first line contains an integer 
+𝑁
+N, the number of nodes in the linked list.
+The second line contains 
+𝑁
+N space-separated integers representing the linked list elements.
+Output Format
+
+For each test case, print a single line containing the length of the linked list.
+
 Sample 1:
 Input
 Output
 3
-8
-7 8 1 2 3 4 5 6
-6
-12 15 18 2 5 8
-6
-3 4 5 6 1 2
-
+5
+1 2 3 4 5
+2
+8 6
 1
+9
+
+5
 2
 1
+
+Explanation:
+
+Test 1: Linked list = [1, 2, 3, 4, 5] -> 5 nodes
+
+Test 2: Linked list = [8, 6] -> 2 nodes
+
+Test 3: Linked list = [9] -> 1 node
