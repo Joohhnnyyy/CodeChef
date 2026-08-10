@@ -8,7 +8,7 @@
 };*/
 
 int getMiddleElement(Node* head){
-    if(!head)return
+    if(!head)return -1;
     Node* slow = head;
     Node* fast = head;
     while( fast -> next ){
