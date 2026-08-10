@@ -1,88 +1,141 @@
 # Function Declaration
 ## Difficulty: Easy
 
-Find the insert position
+Find minimum in a rotated sorted array
 
-You are given a sorted array of unique integers and a target number. Your task is to return the index of the target if it exists in the array. If the target is not present, return the index where it should be inserted so that the array remains sorted.
+Imagine you have an array of length 
+𝑛
+n that was initially sorted in increasing order, but then it was rotated some number of times between 
+1
+1 and 
+𝑛
+n. A rotation consists of moving the last element of the array to the first position.
+
+For example, if the sorted array is 
+𝑛
+𝑢
+𝑚
+𝑏
+𝑒
+𝑟
+𝑠
+=
+[
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+6
+,
+7
+]
+numbers=[1,2,3,4,5,6,7], after rotating it 3 times, it becomes: 
+[
+5
+,
+6
+,
+7
+,
+1
+,
+2
+,
+3
+,
+4
+]
+[5,6,7,1,2,3,4]
+
+Or after rotating 7 times, the array stays the same: 
+[
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+6
+,
+7
+]
+[1,2,3,4,5,6,7]
+
+Your task is: Given a rotated sorted array of distinct integers, write an efficient algorithm to find and return the smallest element in the array.
 
 Your solution must run in O(log n) time complexity.
 
 Function Declaration
 Function Name
 
-𝑠
-𝑒
-𝑎
-𝑟
-𝑐
-ℎ
-𝐼
-𝑛
-𝑠
-𝑒
-𝑟
-𝑡
-𝑃
-𝑜
-𝑠
+𝑓
 𝑖
-𝑡
-𝑖
-𝑜
 𝑛
-searchInsertPosition – This function returns the index of a target element in a sorted array. If the element is not present, it returns the position where it should be inserted to maintain sorted order.
+𝑑
+𝑀
+𝑖
+𝑛
+findMin – This function returns the minimum element in a rotated sorted array of distinct integers.
 
 Parameters
-𝑎
-𝑟
-𝑟
-arr : A reference to a sorted array of unique integers.
-𝑡
-𝑎
-𝑟
-𝑔
-𝑒
-𝑡
-target : The integer value to be searched or inserted.
+𝑛
+𝑢
+𝑚
+𝑠
+nums : A reference to a rotated sorted array of distinct integers.
 Return Value
-Returns the index of 
-𝑡
-𝑎
-𝑟
-𝑔
-𝑒
-𝑡
-target if it exists.
-Returns the index where 
-𝑡
-𝑎
-𝑟
-𝑔
-𝑒
-𝑡
-target should be inserted if it does not exist.
-Constraints
-1
-≤
+Returns the smallest integer present in the array.
+Input Format
+The first line contains an integer 
 𝑇
-≤
-10
-1≤T≤10
+T — number of test cases.
+For each test case:
+One line containing an integer 
+𝑛
+n — size of the array
+One line containing 
+𝑛
+n space-separated integers — the rotated sorted array
+Output Format
+For each test case, print a single integer — the minimum element in the array
+Constraints
+1 <= T <= 100
 1
 ≤
 𝑛
+𝑢
+𝑚
+𝑠
+.
+𝑙
+𝑒
+𝑛
+𝑔
+𝑡
+ℎ
 ≤
 10
-4
-1≤n≤10
-4
+5
+1≤nums.length≤10
+5
 −
 10
 4
 ≤
-𝑎
-𝑟
-𝑟
+𝑛
+𝑢
+𝑚
+𝑠
 [
 𝑖
 ]
@@ -91,61 +144,30 @@ Constraints
 4
 −10
 4
-≤arr[i]≤10
+≤nums[i]≤10
 4
-Elements in 
-𝑎
-𝑟
-𝑟
-arr are unique and sorted in non-decreasing order
-−
-10
-4
-≤
-𝑡
-𝑎
-𝑟
-𝑔
-𝑒
-𝑡
-≤
-10
-4
-−10
-4
-≤target≤10
-4
-Input Format
-The first line contains an integer 
-𝑇
-T — number of test cases.
-For each test case:
-One line containing two integers: 
+All elements in 
 𝑛
-n and 
-𝑡
-𝑎
-𝑟
-𝑔
-𝑒
-𝑡
-target
-One line containing 
+𝑢
+𝑚
+𝑠
+nums are unique
 𝑛
-n space-separated integers — the sorted array
-Output Format
-For each test case, print a single integer — the insert position.
+𝑢
+𝑚
+𝑠
+nums is guaranteed to be a rotated version of a sorted array
 Sample 1:
 Input
 Output
 3
-4 8
-2 4 8 10
-4 5
-2 4 8 10
-4 12
-2 4 8 10
+8
+7 8 1 2 3 4 5 6
+6
+12 15 18 2 5 8
+6
+3 4 5 6 1 2
 
+1
 2
-2
-4
+1
