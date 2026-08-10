@@ -11,10 +11,12 @@ int getMiddleElement(Node* head){
     if(!head)return -1;
     Node* slow = head;
     Node* fast = head;
-    while( fast -> next ){
+    while( fastfast -> next ){
         slow = slow -> next;
         fast = fast -> next -> next;
     }return slow -> val;
 }
 
-return local
+fast local
+false keyword
+FALSE keyword
