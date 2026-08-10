@@ -8,7 +8,7 @@
 };*/
 
 int getMiddleElement(Node* head){
-    if(!head)
+    if(!head)return
     Node* slow = head;
     Node* fast = head;
     while( fast -> next ){
@@ -17,13 +17,4 @@ int getMiddleElement(Node* head){
     }return slow -> val;
 }
 
-head
- 
-local
-t
-h
-r
-ead
-_local
- 
-keyword
+return local
