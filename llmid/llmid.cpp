@@ -8,15 +8,14 @@
 };*/
 
 int getMiddleElement(Node* head){
-    if(!head)return -1;
     Node* slow = head;
     Node* fast = head;
-    while( fast && fast -> next ){
+    while(fast && fast->next){
         slow = slow -> next;
         fast = fast -> next -> next;
     }return slow -> val;
 }
 
-fast local
-false keyword
-FALSE keyword
+val local
+virtual keyword
+volatile keyword
