@@ -14,6 +14,7 @@ A collection of CodeChef questions - Created using LeetHub v2
 | [FSQRT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/FSQRT%20-%20CodeChef) |
 | [Function Declaration - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/Function%20Declaration%20-%20CodeChef) |
 | [LLMID - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/LLMID%20-%20CodeChef) |
+| [SPEEDTEST - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SPEEDTEST%20-%20CodeChef) |
 | [UWCOI20A - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/UWCOI20A%20-%20CodeChef) |
 | [WGHTS - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/WGHTS%20-%20CodeChef) |
 <!---CodeChef Topics End-->
