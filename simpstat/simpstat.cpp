@@ -17,15 +17,23 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed <<sum / ( << endl;
+        cout << fixed <<sum / (n - 2 << endl;
     }
 
 }
 
-fill snippet
-fill_n snippet
-find snippet
-find_if snippet
-flist snippet
-friend keyword
-fori snippet
+int3
+2
+_t
+ 
+keyword
+char3
+2
+_t
+ 
+keyword
+uint3
+2
+_t
+ 
+keyword
