@@ -17,11 +17,15 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << <<sum / (arr.size() - 3) << endl;
+        cout << fixed <<sum / (arr.size() - 3) << endl;
     }
 
 }
 
-make_heap snippet
-break keyword
-stack snippet
+fill snippet
+fill_n snippet
+find snippet
+find_if snippet
+flist snippet
+friend keyword
+fori snippet
