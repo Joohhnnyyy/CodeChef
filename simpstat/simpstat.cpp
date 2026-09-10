@@ -22,16 +22,6 @@ int main() {
 
 }
 
-ma
-k
-e_heap
- 
-snippet
-brea
-k
- 
-keyword
-stac
-k
- 
-snippet
+make_heap snippet
+break keyword
+stack snippet
