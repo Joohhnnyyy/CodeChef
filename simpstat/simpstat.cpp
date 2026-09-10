@@ -14,7 +14,7 @@ int main() {
         // your code goes here
         sort(a , a + n);
         double sum = 0;
-        for(int i = 1 ; i < n - k ; i++){
+        for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
         cout << sum / (arr.size() - 3) << endl;
@@ -22,12 +22,16 @@ int main() {
 
 }
 
-long keyword
-lower_bound snippet
-make_heap snippet
-map snippet
-max snippet
-max_element snippet
-merge snippet
-mfun snippet
-min snippet
+ma
+k
+e_heap
+ 
+snippet
+brea
+k
+ 
+keyword
+stac
+k
+ 
+snippet
