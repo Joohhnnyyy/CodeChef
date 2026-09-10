@@ -17,6 +17,7 @@ A collection of CodeChef questions - Created using LeetHub v2
 | [LLMID - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/LLMID%20-%20CodeChef) |
 | [SEARCHLL - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SEARCHLL%20-%20CodeChef) |
 | [SPEEDTEST - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SPEEDTEST%20-%20CodeChef) |
+| [TSORT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/TSORT%20-%20CodeChef) |
 | [UWCOI20A - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/UWCOI20A%20-%20CodeChef) |
 | [WGHTS - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/WGHTS%20-%20CodeChef) |
 <!---CodeChef Topics End-->
