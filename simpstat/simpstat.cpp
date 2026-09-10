@@ -14,7 +14,7 @@ int main() {
         // your code goes here
         sort(a , a + n);
         double sum = 0;
-        for(int i = 1 ; i < a.size() - 2 ; i++){
+        for(int i = 1 ; i < a.size()  ; i++){
             sum += a[i];
         }
         cout << sum / (arr.size() - 3) << endl;
