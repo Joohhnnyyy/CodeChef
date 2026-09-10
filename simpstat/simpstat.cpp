@@ -17,23 +17,11 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed <<sum / (n - 2 << endl;
+        cout << fixed <<sum / (n - 2 ) << endl;
     }
 
 }
 
-int3
-2
-_t
- 
-keyword
-char3
-2
-_t
- 
-keyword
-uint3
-2
-_t
- 
-keyword
+int32_t keyword
+char32_t keyword
+uint32_t keyword
