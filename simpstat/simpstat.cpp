@@ -17,7 +17,7 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed <<sum / (arr.si << endl;
+        cout << fixed <<sum / ( << endl;
     }
 
 }
