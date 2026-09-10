@@ -13,7 +13,7 @@ int main() {
         }
         // your code goes here
         sort(a , a + n);
-        do sum = 0;
+        double sum = 0;
         for(int i = 1 ; i < a.size() - 2 ; i++){
             sum += a[i];
         }
@@ -22,17 +22,4 @@ int main() {
 
 }
 
-do
- 
-keyword
-do
-uble
- 
-keyword
-threa
-d
-_l
-o
-cal
- 
-keyword
+double keyword
