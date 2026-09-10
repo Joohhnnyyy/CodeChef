@@ -17,11 +17,50 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed <<sum / (n - 2 * k ) << endl;
+        cout << fixed << set<<sum / (n - 2 * k ) << endl;
     }
 
 }
 
-make_heap snippet
-break keyword
-stack snippet
+set
+ 
+snippet
+set
+_difference
+ 
+snippet
+set
+_intersection
+ 
+snippet
+set
+_union
+ 
+snippet
+m
+set
+ 
+snippet
+u
+set
+ 
+snippet
+um
+set
+ 
+snippet
+s
+iz
+e
+_
+t
+ 
+keyword
+s
+tabl
+e
+_par
+t
+ition
+ 
+snippet
