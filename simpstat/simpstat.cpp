@@ -17,7 +17,7 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed << setp<<sum / (n - 2 * k ) << endl;
+        cout << fixed << setpre<<sum / (n - 2 * k ) << endl;
     }
 
 }
