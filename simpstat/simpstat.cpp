@@ -17,7 +17,7 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << sum / (arr.size() - 3) << endl;
+        cout << <<sum / (arr.size() - 3) << endl;
     }
 
 }
