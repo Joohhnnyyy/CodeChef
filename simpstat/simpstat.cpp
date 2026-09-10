@@ -13,7 +13,7 @@ int main() {
         }
         // your code goes here
         sort(a , a + n);
-        int sum = 0;
+        do sum = 0;
         for(int i = 1 ; i < a.size() - 2 ; i++){
             sum += a[i];
         }
@@ -22,12 +22,17 @@ int main() {
 
 }
 
-namespace local
-new keyword
-next_permutation snippet
-noexcept keyword
-none_of snippet
-not keyword
-not_eq keyword
-ns snippet
-nth_element snippet
+do
+ 
+keyword
+do
+uble
+ 
+keyword
+threa
+d
+_l
+o
+cal
+ 
+keyword
