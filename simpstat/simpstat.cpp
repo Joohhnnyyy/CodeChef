@@ -17,11 +17,21 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed <<sum / (n - 2 ) << endl;
+        cout << fixed <<sum / (n - 2 * k ) << endl;
     }
 
 }
 
-int32_t keyword
-char32_t keyword
-uint32_t keyword
+ma
+k
+e_heap
+ 
+snippet
+brea
+k
+ 
+keyword
+stac
+k
+ 
+snippet
