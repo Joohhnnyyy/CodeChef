@@ -12,7 +12,7 @@ int main() {
             cin>>a[i];
         }
         // your code goes here
-        sort(a , a;
+        sort(a , a + n;
         int sum = 0;
         for(int i = 1 ; i < a.size() - 2 ; i++){
             sum += a[i];
@@ -22,7 +22,39 @@ int main() {
 
 }
 
-end local
-friend keyword
-lower_bound snippet
-upper_bound snippet
+n
+amespace
+ 
+local
+n
+ew
+ 
+keyword
+n
+ext_permutation
+ 
+snippet
+n
+oexcept
+ 
+keyword
+n
+one_of
+ 
+snippet
+n
+ot
+ 
+keyword
+n
+ot_eq
+ 
+keyword
+n
+s
+ 
+snippet
+n
+th_element
+ 
+snippet
