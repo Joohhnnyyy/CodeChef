@@ -16,6 +16,7 @@ A collection of CodeChef questions - Created using LeetHub v2
 | [Function Declaration - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/Function%20Declaration%20-%20CodeChef) |
 | [LLMID - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/LLMID%20-%20CodeChef) |
 | [SEARCHLL - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SEARCHLL%20-%20CodeChef) |
+| [SIMPSTAT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SIMPSTAT%20-%20CodeChef) |
 | [SPEEDTEST - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SPEEDTEST%20-%20CodeChef) |
 | [TSORT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/TSORT%20-%20CodeChef) |
 | [UWCOI20A - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/UWCOI20A%20-%20CodeChef) |
