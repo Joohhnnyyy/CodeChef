@@ -17,50 +17,17 @@ int main() {
         for(int i = k ; i < n - k ; i++){
             sum += a[i];
         }
-        cout << fixed << set<<sum / (n - 2 * k ) << endl;
+        cout << fixed << setp<<sum / (n - 2 * k ) << endl;
     }
 
 }
 
-set
- 
-snippet
-set
-_difference
- 
-snippet
-set
-_intersection
- 
-snippet
-set
-_union
- 
-snippet
-m
-set
- 
-snippet
-u
-set
- 
-snippet
-um
-set
- 
-snippet
-s
-iz
-e
-_
-t
- 
-keyword
-s
-tabl
-e
-_par
-t
-ition
- 
-snippet
+set snippet
+set_difference snippet
+set_intersection snippet
+set_union snippet
+mset snippet
+uset snippet
+umset snippet
+size_t keyword
+stable_partition snippet
