@@ -1,83 +1,81 @@
 # Function Declaration
 ## Difficulty: Easy
 
-Remove Duplicates from Sorted Array
+Rotate the array
 
-Chef has an integer array 
+You are given an integer array 
 𝑛
 𝑢
 𝑚
 𝑠
-nums sorted in non-decreasing order.
-Chef wants to remove all duplicate elements from the array in-place such that each unique element appears only once.
-
-The relative order of the elements should remain the same.
-
-After removing the duplicates, let the number of unique elements be 
-𝐾
-K.
-The first 
-𝐾
-K elements of the array should contain the unique elements in their original order.
-The values beyond the first 
-𝐾
-K elements do not matter.
-Your task is to help Chef find 
-𝐾
-K and print the first 
-𝐾
-K elements of the modified array.
+nums. Rotate the array to the right by 
+𝑘
+k positions, where 
+𝑘
+k is a non-negative integer.
+For example:
+Given the array [10, 20, 30, 40, 50], rotating it two times to the right results in:
+First rotation - [50, 10, 20, 30, 40]
+Second rotation - [40, 50, 10, 20, 30]
+You need to implement a solution that operates in-place and uses only 
+𝑂
+(
+1
+)
+O(1) additional space.
+You don’t need to print any values; simply edit the values of the array.
 
 Function Declaration
 Function Name
 
 𝑟
-𝑒
-𝑚
 𝑜
-𝑣
-𝑒
-𝐷
-𝑢
-𝑝
-𝑙
-𝑖
-𝑐
+𝑡
 𝑎
 𝑡
 𝑒
-𝑠
-removeDuplicates – Removes duplicate elements from a sorted array in-place.
+rotate – This function rotates an array to the right by 
+𝑘
+k positions in-place.
 
 Parameters
 𝑛
 𝑢
 𝑚
 𝑠
-nums : A list/array of integers sorted in non-decreasing order.
+nums : An array of integers.
+𝑘
+k : A non-negative integer representing the number of right rotations.
 Return Value
-Returns an integer K — the number of unique elements.
-The first 
-𝐾
-K positions of 
+This function does not return anything.
+The array 
 𝑛
 𝑢
 𝑚
 𝑠
-nums must contain these unique values.
-Constraints:
+nums is modified in-place.
+Constraints
 1
 ≤
-𝑁
+𝑛
+𝑢
+𝑚
+𝑠
+.
+𝑙
+𝑒
+𝑛
+𝑔
+𝑡
+ℎ
 ≤
-3
-×
 10
-4
-1≤N≤3×10
-4
-–
-100
+5
+1≤nums.length≤10
+5
+−
+2
+31
 ≤
 𝑛
 𝑢
@@ -87,46 +85,56 @@ Constraints:
 𝑖
 ]
 ≤
-100
-–100≤nums[i]≤100
-𝑛
-𝑢
-𝑚
-𝑠
-nums is sorted in non-decreasing order.
+2
+31
+−
+1
+−2
+31
+≤nums[i]≤2
+31
+−1
+0
+≤
+𝑘
+≤
+10
+9
+0≤k≤10
+9
+Rotation must be done using O(1) extra space
+Follow up:
+Can you think of multiple approaches to solve this problem? (There are at least three different strategies.)
 Input Format
+The first line contains two integers 
 𝑁
-N → size of array
-Next line → N sorted integers
-Output Format
-Print 
+N and 
 𝐾
-K
-Print the first K unique elements of the modified array
+K — the size of the array and the number of right rotations.
+The second line contains 
+𝑁
+N space-separated integers representing the array elements.
+Output Format
+Print the rotated array in a line (space-separated).
 Sample 1:
 Input
 Output
-6
-1 1 2 2 3 3
-
-3
-1 2 3
-
+5 2
+10 20 30 40 50
+40 50 10 20 30
 Explanation:
 
-nums = [1,1,2,2,3,3] -> After removing duplicates: [1, 2, 3, _, _, _].
-Here, K = 3, and the first three elements are 1 2 3.
+rotate 1 step to the right: [50,10,20,30,40]
+rotate 2 steps to the right: [40,50,10,20,30]
 
 Sample 2:
 Input
 Output
-5
-0 0 1 1 1
-
-2
-0 1
-
+5 3
+7 8 9 1 2
+9 1 2 7 8
 Explanation:
 
-nums = [0,0,1,1,1] -> After removing duplicates: [0, 1, _, _, _].
-Here, K = 2, and the first two elements are 0 1.
+rotate 1 step to the right: [2,7,8,9,1]
+rotate 2 steps to the right: [1,2,7,8,9]
+rotate 3 steps to the right: [9,1,2,7,8]
