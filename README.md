@@ -14,6 +14,7 @@ A collection of CodeChef questions - Created using LeetHub v2
 | [DPNMAO18 - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/DPNMAO18%20-%20CodeChef) |
 | [FSQRT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/FSQRT%20-%20CodeChef) |
 | [Function Declaration - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/Function%20Declaration%20-%20CodeChef) |
+| [LARGESECOND - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/LARGESECOND%20-%20CodeChef) |
 | [LLMID - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/LLMID%20-%20CodeChef) |
 | [SEARCHLL - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SEARCHLL%20-%20CodeChef) |
 | [SIMPSTAT - CodeChef](https://github.com/Joohhnnyyy/CodeChef/tree/master/SIMPSTAT%20-%20CodeChef) |
