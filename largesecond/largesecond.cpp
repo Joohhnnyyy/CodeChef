@@ -17,7 +17,7 @@ int main() {
             if(num > larg){
                 secLarg = larg;
                 larg = num;
-            }else if(num < larg && num > secLarg ){secLarg = num;
+            }else if(num < larg && num > secLarg )secLarg = num;
         }return larg + secLarg;
     }
 }
