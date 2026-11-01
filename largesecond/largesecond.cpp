@@ -19,7 +19,7 @@ int main() {
                 larg = num;
             }else if(num < larg && num > secLarg ){
                 secLarg = num;
-            }
+    
         }return larg + secLarg;
     }
 }
