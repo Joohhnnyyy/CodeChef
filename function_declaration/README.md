@@ -1,67 +1,83 @@
 # Function Declaration
 ## Difficulty: Easy
 
-Zero Sum Triplets
+Remove Duplicates from Sorted Array
 
-Chef is arranging dishes on a table.
-You are given an array of dishes with 
-𝑁
-N dishes. Each dish has a number (positive, negative, or zero).
+Chef has an integer array 
+𝑛
+𝑢
+𝑚
+𝑠
+nums sorted in non-decreasing order.
+Chef wants to remove all duplicate elements from the array in-place such that each unique element appears only once.
 
-Chef wants to know:
-Can we pick any 3 different dishes indices such that their total is exactly 0?
+The relative order of the elements should remain the same.
 
-Your task is to find all such unique triplets.
+After removing the duplicates, let the number of unique elements be 
+𝐾
+K.
+The first 
+𝐾
+K elements of the array should contain the unique elements in their original order.
+The values beyond the first 
+𝐾
+K elements do not matter.
+Your task is to help Chef find 
+𝐾
+K and print the first 
+𝐾
+K elements of the modified array.
 
-A valid triplet contains 3 different numbers (on different indices) from the array.
-The same triplet should not repeat.
-Print each triplet in non-decreasing order.
-If no triplet exists return empty array that will be treated as print -1.
 Function Declaration
 Function Name
 
-𝑓
-𝑖
-𝑛
-𝑑
-𝑍
+𝑟
 𝑒
-𝑟
-𝑜
-𝑆
-𝑢
 𝑚
-𝑇
-𝑟
-𝑖
+𝑜
+𝑣
+𝑒
+𝐷
+𝑢
 𝑝
 𝑙
-𝑒
+𝑖
+𝑐
+𝑎
 𝑡
+𝑒
 𝑠
-findZeroSumTriplets – This function finds all unique triplets in the array whose sum is exactly zero.
+removeDuplicates – Removes duplicate elements from a sorted array in-place.
 
 Parameters
 𝑛
 𝑢
 𝑚
 𝑠
-nums : A reference to an integer array containing 
-𝑁
-N elements, where each element can be positive, negative, or zero.
+nums : A list/array of integers sorted in non-decreasing order.
 Return Value
-Returns a 2D array containing all unique triplets whose sum is 0.
-Each triplet is sorted in non-decreasing order.
-If no such triplet exists, return an empty array (this will be treated as printing -1).
-Constraints
-3
+Returns an integer K — the number of unique elements.
+The first 
+𝐾
+K positions of 
+𝑛
+𝑢
+𝑚
+𝑠
+nums must contain these unique values.
+Constraints:
+1
 ≤
 𝑁
 ≤
-3000
-3≤N≤3000
-−
-100000
+3
+×
+10
+4
+1≤N≤3×10
+4
+–
+100
 ≤
 𝑛
 𝑢
@@ -71,54 +87,46 @@ Constraints
 𝑖
 ]
 ≤
-100000
-−100000≤nums[i]≤100000
+100
+–100≤nums[i]≤100
+𝑛
+𝑢
+𝑚
+𝑠
+nums is sorted in non-decreasing order.
 Input Format
-The first line contains a single integer 
 𝑁
-N — the number of elements in the array.
-The second line contains 
-𝑁
-N space-separated integers representing the array elements.
+N → size of array
+Next line → N sorted integers
 Output Format
-Print all valid triplets, one triplet per line.
-Each triplet should contain three space-separated integers.
-If no triplet exists, print -1.
+Print 
+𝐾
+K
+Print the first K unique elements of the modified array
 Sample 1:
 Input
 Output
-5
-2 -2 0 1 -1
+6
+1 1 2 2 3 3
 
--2 0 2
--1 0 1
+3
+1 2 3
+
 Explanation:
 
-Triplet (-2, 0, 2) -> sum = 0
-Triplet (-1, 0, 1) -> sum = 0
-These are the only unique triplets.
+nums = [1,1,2,2,3,3] -> After removing duplicates: [1, 2, 3, _, _, _].
+Here, K = 3, and the first three elements are 1 2 3.
 
 Sample 2:
 Input
 Output
-4
-5 -3 -2 1
+5
+0 0 1 1 1
 
--3 -2 5
-
-Explanation:
-
-Triplet (-3, -2, 5) -> sum = 0
-No other triplet exists.
-
-Sample 3:
-Input
-Output
-4
-1 2 3 4
-
--1
+2
+0 1
 
 Explanation:
 
-No three numbers add up to 0, so output is -1.
+nums = [0,0,1,1,1] -> After removing duplicates: [0, 1, _, _, _].
+Here, K = 2, and the first two elements are 0 1.
