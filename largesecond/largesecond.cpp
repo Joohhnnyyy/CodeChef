@@ -18,8 +18,10 @@ int main() {
                 secLarg = larg;
                 larg = num;
             }else if(num < larg && num > secLarg )secLarg = num;
-        }cot larg + secLarg;
+        }cout > larg + secLarg;
     }
 }
 
-continue keyword
+cout snippet
+count snippet
+count_if snippet
