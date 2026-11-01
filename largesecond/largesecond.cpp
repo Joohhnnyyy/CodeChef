@@ -18,8 +18,8 @@ int main() {
                 secLarg = larg;
                 larg = num;
             }else if(num < larg && num > secLarg )secLarg = num;
-        } larg + secLarg;
+        }cot larg + secLarg;
     }
 }
 
-secLarg local
+continue keyword
